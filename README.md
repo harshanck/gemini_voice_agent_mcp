@@ -36,6 +36,14 @@ Create `mcp-server/.env` from example:
 cp .env.example .env
 ```
 
+Seed the MCP SQLite database (uses `mcp-server/seed.ts`):
+
+```bash
+npm run seed
+```
+
+This resets and repopulates demo `products` and `appointments` data.
+
 Run MCP server:
 
 ```bash
